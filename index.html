@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <link href="style.css"  rel="stylesheet" type="text/css">
+    <title>Game</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <div id="menu">
+      <h1>Robo Shooter</h1>
+      <div id="scoreDiv"><h2>Score: <span id="score"></span></h2></div>
+      <h2>Controls:</h2>
+      <table id="controlList">
+        <tr>
+          <td class="controlKey">A / D</td><td class="controlDesc">Move Left / Right</td>
+        </tr>
+        <tr>
+          <td class="controlKey">SPACE</td><td class="controlDesc">Jump</td>
+        </tr>
+        <tr>
+          <td class="controlKey">W / S</td><td class="controlDesc">Aim Cannons Up / Down</td>
+        </tr>
+        <tr>
+          <td class="controlKey">Q / E</td><td class="controlDesc">Shoot Left / Right Cannon</td>
+        </tr>
+      </table>
+      <br><br><button onclick="startGame()" id="startBtn">Play!</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+html {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    font-size: 20px;
+}
+body {
+    background-color: #10aaff; 
+    font-family: Segoe UI;
+}
+#canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#menu {
+    position: absolute;
+    background-color: #00000099;
+    border: 5px solid white;
+    border-radius: 25px;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    color: white;
+}
+
+#controlList {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%; 
+}
+
+#scoreDiv {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    border-radius: 125px;
+    border: 5px solid #00ff00;
+    background-color: #00000099;
+    color: #00ff00;
+    display: none;  
+}
+
+.controlKey {
+    width: 75px;
+}
+
+.controlDesc {
+    width: 225px;
+}
+
+#startBtn {
+    font-size: 20px;
+    border: 3px solid white;
+    border-radius: 50px;
+    color: white;
+    width: 100px;
+    background-color: #000000;
+}
